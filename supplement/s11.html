@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0e14">
+<title>追補11 NVIDIA 800V HVDC｜ロームら三社統合 2026.04.19</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-base="../">
+<div id="layout-top"></div>
+
+<main class="container">
+
+  <p style="margin:4px 0 12px;"><span class="chip cyan">追補編 第11節</span> <span class="chip green">追い風</span></p>
+
+  <section class="hero reveal" style="padding: 28px 20px;">
+    <div class="hero-inner">
+      <span class="hero-eyebrow"><span class="dot"></span>SUPPLEMENT 11</span>
+      <h1 class="hero-title" style="font-size:24px;">NVIDIA 800V HVDCという<br><span class="accent">救済</span><br>AI工場がパワー半導体を救う</h1>
+      <p class="hero-sub">三社連合にとって劇的な追い風。AI工場向けの巨大需要が、車載EV減速の穴を埋める可能性。</p>
+    </div>
+  </section>
+
+  <article class="prose reveal">
+
+    <h2>電力供給アーキテクチャの大転換</h2>
+    <p>NVIDIAは2025年に、次世代AI工場向けの電力供給アーキテクチャを、従来の<strong>415V交流（AC）</strong>から<strong>800V直流（DC）</strong>へと大転換する計画を発表した。</p>
+
+    <p>具体的には、<strong>13.8kVの産業用交流グリッド電力を、データセンターの境界で工業用整流器を用いて直接800V DCに変換</strong>し、データセンター内部ではすべてDCで配電するという構造である。</p>
+
+    <div class="stat-grid reveal">
+      <div class="stat green"><div class="label">銅使用量</div><div class="value">-45<span class="unit">%</span></div></div>
+      <div class="stat green"><div class="label">送電能力</div><div class="value">+85<span class="unit">%</span></div></div>
+      <div class="stat green"><div class="label">電力効率</div><div class="value">+5<span class="unit">%</span></div></div>
+      <div class="stat gold"><div class="label">本格稼働</div><div class="value">2027</div></div>
+    </div>
+
+    <p>この変換により：</p>
+    <ul>
+      <li>中間段階のAC/DC変換ユニットが大幅に省略できる</li>
+      <li>銅の使用量は<strong>45%削減</strong></li>
+      <li>同じ導体断面積で送電できる電力は<strong>85%増加</strong></li>
+      <li>エンドツーエンドの電力効率は最大<strong>5%改善</strong></li>
+    </ul>
+
+    <p>2025年10月にNVIDIAは、2026年に800V DC HVDC製品の完全なラインナップを投入し、<strong>2027年に本格稼働するRubin Ultra/Kyberラックスケールシステム</strong>と合わせてフル生産フェーズに入るとアナウンスした。</p>
+
+    <h2>このアーキテクチャの中核はパワー半導体</h2>
+    <p>13.8kV ACから800V DCへの整流、800V DCから48V DCへの降圧、48V DCから1V級のGPUコア電源への最終変換、この<strong>すべての段階でSiC、GaN、あるいは高耐圧シリコンMOSFET</strong>が必要となる。</p>
+
+    <h2>NVIDIAの800V DCパートナー企業リスト</h2>
+    <p>NVIDIAは800V DCエコシステムの構築にあたり、パートナー半導体企業として次の企業を挙げている：</p>
+
+    <table class="tbl reveal">
+      <thead><tr><th>企業</th><th>三社統合との関係</th></tr></thead>
+      <tbody>
+        <tr><td>アナログ・デバイセズ</td><td>-</td></tr>
+        <tr><td>インフィニオン</td><td>競合</td></tr>
+        <tr><td>イノサイエンス</td><td>GaN中国首位</td></tr>
+        <tr><td>MPS</td><td>-</td></tr>
+        <tr><td>ナヴィタス</td><td>競合</td></tr>
+        <tr><td>オンセミ</td><td>競合</td></tr>
+        <tr><td>ルネサス</td><td>-</td></tr>
+        <tr><td style="color:var(--accent-green);"><strong>ローム</strong></td><td style="color:var(--accent-green);"><strong>三社連合の一員！</strong></td></tr>
+        <tr><td>STマイクロエレクトロニクス</td><td>競合</td></tr>
+        <tr><td>テキサス・インスツルメンツ</td><td>-</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout key reveal">
+      <span class="tag">決定的</span>
+      ここで注目すべきは、このパートナーリストに<strong>「ローム」の名前が既に含まれており</strong>、かつ「ルネサス」の名前が残っている一方で、<strong>三菱電機と東芝の名前が見当たらない</strong>ことである。
+    </div>
+
+    <h2>統合の隠れた経済的インセンティブ</h2>
+    <p>ロームはNVIDIA 800V HVDCエコシステムに<strong>早期段階から食い込んで</strong>おり、単独でAIデータセンター需要の恩恵を受けられるポジションを確保していた。逆に言えば、三菱電機と東芝は単独ではこのAI特需に参画できておらず、<strong>ロームとの統合によって初めてAI工場向けの巨大需要にアクセス</strong>できる構造にある。</p>
+
+    <p>これは統合の<strong>隠れた経済的インセンティブ</strong>として極めて重要である。特に三菱電機が「高耐圧帯・高信頼性」の技術を持っていることを考えれば、<strong>13.8kV AC → 800V DCの整流段階</strong>において同社のIGBT技術が真価を発揮する余地は大きい。</p>
+
+    <h2>中国勢が入りにくい領域</h2>
+    <p>AI工場向けHVDC市場は、2030年までに数十億ドル規模に成長する見込みであり、これは中国勢のEV車載SiC市場における攻勢とは異なる戦場である。</p>
+
+    <blockquote class="reveal">
+      中国勢は自国EV需要を基盤として車載SiCに集中しているが、<strong>AI向けデータセンターHVDC市場ではNVIDIAとその認定パートナーが主導権を握っており、地政学的な理由から中国企業の大幅な参入は困難</strong>である。
+    </blockquote>
+
+    <div class="callout good reveal">
+      <span class="tag">攻めの統合</span>
+      三社連合が車載SiCで中国勢と価格競争するのではなく、<strong>AI工場向け高耐圧SiC・GaNデバイスおよびモジュールで世界の「第二極」として戦う</strong>、という戦略シフトが、実は統合の<strong>最大の合理性</strong>をなす可能性がある。本編が見落としたこの論点は、三社統合を「守り」ではなく「攻め」として評価し直す決定的視座を提供する。
+    </div>
+
+  </article>
+
+  <div class="page-nav">
+    <a href="s10.html"><span class="dir">← PREV</span><span class="t">第10節 GaN市場</span></a>
+    <a href="s12.html" class="next"><span class="dir">NEXT →</span><span class="t">第12節 ネクスペリア全貌</span></a>
+  </div>
+
+</main>
+
+<div id="layout-bottom-nav"></div>
+<div id="layout-footer"></div>
+<script src="../js/layout.js"></script>
+</body>
+</html>

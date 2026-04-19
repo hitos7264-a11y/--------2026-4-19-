@@ -1,0 +1,83 @@
+ファクトチェック結果：訂正が必要な箇所
+本レポート（txtファイル）を徹底的に精読し、公式リリース・一次情報・主要報道と突き合わせて検証した結果、以下の箇所に事実誤認が確認されました。該当箇所のみを箇条書きで訂正します（ハイパーリンクは文中に挿入せず、引用元は末尾に一括記載）。
+
+【人名・役職に関する誤り】
+東芝デバイス＆ストレージ（TDSC）代表取締役社長の氏名
+
+本文記載：「牛嶋 智美」
+正しくは：「牛島 知巳（うしじま ともみ）」（姓は「嶋」ではなく「島」、名は「智美」ではなく「知巳」）。東芝デバイス＆ストレージの公式「基本データ」ページ、および2026年3月27日付の統合発表プレスリリースの当事者情報欄にも「牛島 知巳」と明記されている。
+三菱電機 半導体・デバイス事業本部長の氏名
+
+本文記載：「竹見 正義」（第三章・第十一章ほか）
+正しくは：「竹見 政義（たけみ まさよし）」。三菱電機公式役員プロフィールページ、統合報告書、「リーダーたちのマイパーパス」インタビュー、Bloomberg記事、EE Times取材記事、すべて「政義」表記。
+三菱電機 竹見氏の肩書き
+
+本文では「本部長」「半導体・デバイス事業本部長」とされているが、2026年4月1日付の役員人事で、肩書きは**「常務執行役 半導体・デバイス事業本部長」**。2026年3月末時点では「上席執行役員」。レポートの時点設定（4月19日）では常務執行役が正しい。
+ロームの創業者
+
+本文記載：「1958年9月17日に東哲郎氏（現在は東克己氏が社長兼CEO）によって創業された」
+正しくは：創業者は佐藤 研一郎氏。1954年12月に立命館大学理工学部卒業直後の佐藤研一郎が京都市上京区で個人企業「東洋電具製作所」を創業し、1958年9月17日に株式会社化したのがロームの起源。「東哲郎」は東京エレクトロン元社長かつラピダス会長の別人物であり、ロームとは無関係。また、現社長・東克己氏と「東哲郎氏」は同姓の別人であり、混同してはならない。
+【工場・拠点に関する誤り】
+ロームのSiC主力量産拠点
+
+本文記載：「ラピスセミコンダクタ宮崎第二工場ではSiCパワーデバイスを、互いに生産委託し合うかたちで『仮想統合』のような共同製造を進めてきた」「ラピスセミコンダクタ宮崎工場は、ローム傘下のSiC製造の中核拠点である」
+正しくは：2023〜2024年時点で、ロームのSiC（炭化ケイ素）パワー半導体の主力量産拠点は「ローム・アポロ筑後工場（福岡県筑後市）」。2020年着工・2021年竣工のSiC新棟で、2022年12月から量産を開始し、2025年度に8インチ化する中核拠点。経済産業省の「供給確保計画」（2023年12月8日認定）の公式資料でも、ロームのSiC量産拠点として筑後工場（ローム・アポロ）および宮崎第二工場が併記されており、「宮崎第二工場」単独で中核ではない。宮崎第二工場は後述のとおり、2023年11月に取得して整備途上の新拠点で、SiCパワー素子の量産は「2、3年後」（当時のロームコメント）となる見込みだった。
+ロームによる「宮崎第二工場」取得の経緯に関する誤記（ルネサスとの混同）
+
+本文記載（第五章）：「特にSiC MOSFETでは、**ルネサスの2024年買収（SiCウェハー事業の取得）**や、デンソーとの2025年5月戦略提携など、垂直統合型の技術開発体制を構築してきた」
+正しくは：ロームが買収したのは「ルネサスのSiCウェハー事業」ではなく、「ソーラーフロンティア（出光興産子会社）の旧国富工場」（宮崎県国富町）。ロームは2023年7月12日に基本合意、2023年11月7日に資産取得を完了し、これをラピスセミコンダクタの「宮崎第二工場」として整備、8インチSiCウェハー対応ラインを構築している。ルネサスからSiCウェハー事業を取得した事実はそもそも存在せず、ルネサスは逆に2023年、米Wolfspeed（ウルフスピード）と10年間のSiCウェハー調達契約を結び、20億ドル（約2860億円）の預託金を支払った立場である。
+石川県加賀市の東芝拠点の正式名称
+
+本文記載：「加賀東芝工場」「TDSCの加賀工場」
+正しくは：正式名称は「加賀東芝エレクトロニクス株式会社」（TDSCの連結子会社）。経済産業省の供給確保計画公表資料、Bloomberg・ロイター・日経xTECHなど主要媒体は全て「加賀東芝エレクトロニクス」と記載。同社が2022年からロームと分担で300mmウエハーによるSiパワー半導体の製造を担っている。
+【日付・スケジュールに関する誤り】
+デンソーの中期経営計画「CORE 2030」発表日、および林新之助氏の肩書き
+本文記載：「4月1日、デンソーの林新之助社長は東京での記者会見で……同日デンソーは2030年度までの中期経営計画を公表し、売上高8兆円、営業利益率10％という目標を掲げた」
+正しくは：
+中期経営計画「CORE 2030」（2030年度目標：売上高8兆円以上・営業利益率10%以上・ROE 11%以上）を発表したのは2026年3月31日（ロイター・日経・Car Watch・Response等が同日付で一斉報道）。4月1日ではない。
+2026年4月19日時点では、林新之助氏は「代表取締役社長」ではない。2026年3月10日にデンソーが社長交代人事を発表した時点で、林氏は「経営役員」（発表時点の肩書き）。2026年3月9日付および2026年4月14日付の公式リリース段階では、林氏は「代表取締役社長」（ただし正式昇格は定時株主総会後）と段階的に扱われている。有馬浩二前社長は代表権のある取締役会長（CEO）に就任する予定で、2026年4月1日段階では有馬氏が会長就任・林氏が新体制で社長職を担う移行期にある。したがって「4月1日に林新之助社長が記者会見」という記述は、日付・体制ともに不正確。
+【事業形態・スキームに関する誤り】
+ローム－東芝の協業の性質に関する記述（「相互生産委託」）
+本文記載：「加賀東芝工場ではシリコン系パワーデバイス、ローム傘下のラピスセミコンダクタ宮崎第二工場ではSiCパワーデバイスを、互いに生産委託し合うかたちで『仮想統合』のような共同製造を進めてきた」
+正しくは：経済産業省「供給確保計画」（2023年12月8日認定）の実体は「相互生産委託」ではなく、「分担による製造連携および量産投資計画」。具体的には「ロームがSiC、東芝デバイス＆ストレージがSi（シリコン）パワー半導体に投資を重点配分し、効率的に供給能力を拡大する」という投資・生産分担であり、投資総額3883億円のうちローム/ラピスが2892億円、東芝D&S/加賀東芝エレクトロニクスが991億円を担当、国が最大1294億円を助成する（3分の1上限）。「互いに生産委託し合う」という双方向の受託生産の構図ではない点は重要な事実誤認。
+【数値に関する軽微な不正確】
+三菱電機・熊本SiC新棟の投資額
+
+本文記載：「投資額約1020億円（約6億8000万ドル）」
+公式値は**「約1000億円」**（三菱電機プレスリリース、日経、朝日新聞ほか一致）。1020億円の数字の出典は確認できず、公式発表数値と一致しない。
+インフィニオンの世界シェアの扱い
+
+本文記載：「**24％**の世界シェアで君臨する」
+2024年実績値はOmdia調査で約22.8%、調査機関（TechInsights等）により21〜24％台で差がある。「24％」はOmdia 2023年実績（24.4%）に近い古めの数値で、最新のOmdia 2024年実績では22.8%前後。レポート中で別途「1位インフィニオン（24.4%）」と記した資料源（半導体ポータル）も併存しており、本文内で数値が24%と24.4%で混在する点も要整理（誤差の範囲ではあるが、正確には2024年実績で22.8%）。
+【補足として注記しておくべき点（誤りではないが、原文の表現上やや紛らわしい箇所）】
+TDSCの**「2017年7月1日」は「設立日」ではなく「事業承継日」**（同社公式基本データページで明示）。本文は「設立された完全子会社」と書いているが、厳密にはこの日付は東芝本体から半導体・ストレージ事業を承継した日であり、法人の商業登記上の設立日とは性質が異なる。
+
+本文は「東芝を2023年に非上場化させたJIP」と記述しているが、より正確にはTBJH合同会社（現TBJH株式会社）による公開買付けが2023年9月21日成立、同年12月20日に上場廃止。2023年末という表現は正しいが、スキーム主体はJIPが率いる国内連合でTBJHがビークル、という二層構造。本文のMOU署名5者にJIP・TBJHが並んでいるのはこの構造を反映したもので、整合している。
+
+引用元（すべて本ファクトチェックで直接参照した一次情報・主要媒体）
+東芝デバイス＆ストレージ 公式「基本データ」: https://toshiba.semicon-storage.com/jp/company/about/profile.html
+ローム株式会社「会社概要」: https://www.rohm.co.jp/company/about/profile
+ローム「ROHM Group Corporate Profile 2025」PDF: https://fscdn.rohm.com/jp/financial/corporate-profile/rohm_group_corporate_profile_2025_jp.pdf
+ローム「役員・組織」ページ: https://www.rohm.co.jp/company/about/officer
+三菱電機「役員のプロフィール」: https://www.mitsubishielectric.co.jp/ja/about/management/profile/
+三菱電機「事業本部長インタビュー 竹見政義」: https://www.mitsubishielectric.co.jp/semiconductors/work-people/voices/top-interview/
+三菱電機「リーダーたちのマイパーパス 竹見政義」PDF: https://www.mitsubishielectric.co.jp/corporate-communication/colleague/purpose/leaders-purpose/assets/pdf/2024/MTakemi-purpose.pdf
+2026年3月27日 三菱電機・ローム・TDSC共同発表資料（ロームIR・三菱電機IR・東芝コーポレート各社）: https://www.mitsubishielectric.co.jp/ja/pr/2026/pdf/0327.pdf ／ https://fscdn.rohm.com/jp/financial/ir-news-releases/260327_news3_jp.pdf ／ https://www.global.toshiba/jp/news/corporate/2026/03/news-20260327-01.html
+2023年12月8日 ロームと東芝デバイス＆ストレージ「供給確保計画」認定発表（経産省・ローム・東芝・Bloomberg・ロイター・EETimes）: https://toshiba.semicon-storage.com/jp/company/news/news-topics/2023/12/corporate-20231208-1.html ／ https://www.meti.go.jp/policy/economy/economic_security/semicon/nintei_anpo_keikaku18r.pdf ／ https://www.bloomberg.co.jp/news/articles/2023-12-08/S5BMFJT0G1KW00 ／ https://jp.reuters.com/business/PSRQPPSZAJI2LGHTOX4LJBPR2M-2023-12-08/ ／ https://eetimes.itmedia.co.jp/ee/articles/2312/08/news142.html
+ローム「ソーラーフロンティア旧国富工場の取得完了」（2023年11月7日）: https://www.rohm.co.jp/news-detail?news-title=2023-11-07_news&defaultGroupId=false ／ https://eetimes.itmedia.co.jp/ee/articles/2311/08/news061.html
+ローム・アポロ筑後工場SiC新棟情報: https://www.rohm.co.jp/news-detail?news-title=news_sic-apollo-video&defaultGroupId=false ／ https://eetimes.itmedia.co.jp/ee/articles/2206/13/news153.html
+ローム創業者・佐藤研一郎に関する記事（ローム統合報告書2024・ロームIRサイト・The社史・日経新聞）: https://micro.rohm.com/jp/financial/integrated-report/JP_rohm_group_integrated_report_2024_view.pdf ／ https://the-shashi.com/tse/6963/ ／ https://www.nikkei.com/article/DGKDZO06301520V20C10A4TJC000/
+東克己氏経歴（ローム「代表取締役の異動に関するお知らせ」）: https://micro.rohm.com/jp/financial/ir-news-releases/250117_news_jp.pdf ／ https://ja.wikipedia.org/wiki/東克己_(実業家)
+デンソー役員異動・中期経営計画「CORE 2030」発表（2026年3月10日人事発表、2026年3月31日中計公表）: https://www.denso.com/jp/ja/-/media/secure-news/jp/ja/news/news-releases/2026/20260414-01.pdf ／ https://www.denso.com/jp/ja/driven-base/project/core2030_1/ ／ https://jp.reuters.com/markets/global-markets/LRAFL7F2BZJK5ILMYTKHKS3GI4-2026-03-31/ ／ https://www.nikkei.com/article/DGXZQOUB3137E0R30C26A3000000/
+デンソーによるロームへの買収提案報道（2026年3月6日 日経・Bloomberg）: https://www.nikkei.com/article/DGXZQOFD06B7V0W6A200C2000000/ ／ https://finance.yahoo.co.jp/news/detail/fffba2b7dda18d4cf73b753def6504578ba8d698
+三菱電機 熊本・菊池市SiC 8インチ新棟（PA棟）関連: https://www.mitsubishielectric.co.jp/semiconductors/powerdevices/drawings/topics/Introduction_of_SiC_200mm_wafer_production_line_in_Shisui_area_jp.pdf ／ https://www.jiji.com/jc/article?k=2025100100981&g=eco ／ https://www.nikkei.com/nkd/company/article/?DisplayType=1&ng=DGXZQOUC146R20U3A310C2000000&scode=6503
+三菱電機 福岡・PA棟竣工（2026年4月15日）: https://eetimes.itmedia.co.jp/ee/articles/2604/16/news070.html ／ https://www.nikkei.com/article/DGXZQOJC150PY0V10C26A4000000/ ／ https://www.mitsubishielectric.co.jp/ja/pr/2024/1120/
+東芝非上場化（JIP/TBJH）: https://www.global.toshiba/jp/ir/corporate/tender-offer.html ／ https://www.yomiuri.co.jp/economy/20230921-OYT1T50296/
+パワー半導体世界シェア（Omdia・TechInsights・半導体ポータル分析）: https://www.semiconportal.com/archive/blog/insiders/hattori/260407-rohmtoshibadenso.html ／ https://eetimes.itmedia.co.jp/ee/articles/2604/02/news066.html ／ https://note.com/claude_log/n/nb40174e059ff
+エルピーダメモリ破綻（会社更生法2012年2月27日）: https://www.itmedia.co.jp/news/articles/1202/27/news086.html ／ https://jp.reuters.com/article/world/japan/-idUSTYE81Q04R/
+ルネサステクノロジ設立（2003年4月1日）およびルネサスエレクトロニクス設立（2010年4月1日）: https://www.hitachi.co.jp/New/cnews/2002/1003a/index.html ／ https://www.renesas.com/ja/about/newsroom/renesas-electronics-corporation-commences-operations
+キオクシア再上場（2024年12月18日）: https://jp.reuters.com/markets/japan/A2LQFBVFXFNY7P65KWIW5FSYQM-2024-11-22/
+Wolfspeed（ウルフスピード）破産法第11章申請（2025年6月30日）: https://www.jetro.go.jp/biznews/2025/07/e2ad162c7c2a4a0f.html ／ https://www.bloomberg.co.jp/news/articles/2025-06-30/SYOU8QT0G1KW00
+ネクスペリア／ウィングテック危機（2025年秋〜）: https://www.bloomberg.co.jp/news/articles/2025-10-31/T4ZSHMGP493400 ／ https://toyokeizai.net/articles/-/915596?display=b
+ローム大株主（2025年9月末時点）: https://www.buffett-code.com/company/6963/mainshareholder ／ https://irbank.net/E01953/holder ／ https://www.rohm.co.jp/ir/stock/stock-situation
+ロームがルネサスのSiCウェハー事業を取得した事実は存在しないことの反証（ルネサスはWolfspeedから調達する立場）: https://www.nikkan.co.jp/articles/view/00749400 ／ https://toyokeizai.net/articles/-/882538?display=b
